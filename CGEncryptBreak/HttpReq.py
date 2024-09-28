@@ -8,7 +8,7 @@ import Encrypt
 import DataManager
 
 # 根url
-main_url = 'https://tyapp-scu.chingo.cn/cgapp-server'
+main_url = 'https://petzjk.hust.edu.cn/cgapp-server'
 # 请求头
 org_headers = {
     'Accept': '*/*',

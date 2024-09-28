@@ -22,7 +22,7 @@ def cglogin(studID, passwd):
     loginReqBody = {  # provinceCode 根据学校来改
         'username': studID,
         'password': get_enc_pwd(passwd),
-        'provinceCode': 51,  # 四川大学
+        'provinceCode': 42,  # HUST
         'randomCode': 23  # 这个可以随意修改
     }
     loginRes = HttpReq.login_req(loginReqBody, '')

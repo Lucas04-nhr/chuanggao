@@ -198,7 +198,7 @@
     <div class="inputForm" style="margin-top: 20%;">
       <span class="material-icons">perm_identity</span>
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" name="studID" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="studID_id">
+        <input class="mdl-textfield__input" name="studID" type="text" pattern="^(U|M|D)\d{9}$" id="studID_id">
         <label class="mdl-textfield__label" for="studID_id">你的学号</label>
         <span class="mdl-textfield__error">请输入一个数字！</span>
       </div>
